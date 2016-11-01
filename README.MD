@@ -1,3 +1,4 @@
-# Responsive SASS and CSS
+# React.js Basix
 
-This is a learning exercise from Lynda.com with Ray Villalobos on how to create a responsive site using SASS generated CSS files.
+This is a learning exercise from Lynda.com with
+Eve Porcello training for React.js.
