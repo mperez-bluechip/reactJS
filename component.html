@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="https://unpkg.com/react@15/dist/react.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
+        <title>React Components</title>
+    </head>
+    <body>
+      <div id='react-container'></div>
+      <script type="text/babel">
+      //**render with stateless functional component**//
+        const MyComponent = () => {
+          return <div>
+                  <h1>Hello World</h1>
+                  <p>This is my first React component!</p>
+              </div>
+        }
+
+        //**render with ES6**//
+        // class MyComponent extends React.Component {
+        //   render() {
+        //     return <div>
+        //         <h1>Hello World</h1>
+        //         <p>This is my first React component!</p>
+        //     </div>
+        //   }
+        // }
+        //**render with class**//
+          // var MyComponent = React.createClass({
+          //     render() {
+          //         return <div>
+          //             <h1>Hello World</h1>
+          //             <p>This is my first React component!</p>
+          //         </div>
+          //     }
+          // })
+
+          ReactDOM.render(<MyComponent />,
+              document.getElementById('react-container'))
+
+      </script>
+    </body>
+</html>
